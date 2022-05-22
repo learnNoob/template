@@ -1,4 +1,4 @@
-package com.noob.creatation;
+package com.noob.creatation.singleton;
 
 /**
  * @author lizhiquan
