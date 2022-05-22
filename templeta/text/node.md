@@ -55,6 +55,13 @@
 
 > 工厂模式提供了一种创建对象的最佳方式，我们不必关心对象的创建细节，只需要根据不同情况获取不同的产品
 
+#### 使用场景
+
+- NumberFormat、SimpleDateFormat
+- LoggerFactory
+- SqlSessionFactory
+- BeanFactory
+
 #### 简单工厂
 
 - 角色
@@ -65,3 +72,19 @@
 - 缺点
 
   > 违反开闭、扩展不易
+
+#### 工厂方法
+
+- 角色
+  - Product抽象产品
+  - ConscreteProduct:具体产品
+  - Factory：抽象工厂
+  - ConCreteFactory:具体工厂
+
+- 缺点
+
+  > 系统复杂形增加，产品单一
+
+####  抽象工厂
+
+> 工厂的工厂，解决产品单一的特点
